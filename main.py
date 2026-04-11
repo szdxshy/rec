@@ -10,7 +10,7 @@ def print_models(title, models):
 if __name__ == '__main__':
     models = {
         'Graph-Based Baseline Models': ['LightGCN', 'LightGCNS2','LightGCNS3','LightGCNS4','LightGCN_neg','LightGCN_dyn','DirectAU', 'MF', 'UserKNN', 'ItemKNN'],
-        'Self-Supervised Graph-Based Models': ['SGL', 'SGLS2','SGLS3', 'SGLS4' ,'SimGCL','SimGCLS2','SimGCLS3','SimGCLS4', 'SEPT', 'MHCN', 'BUIR', 'SelfCF', 'SSL4Rec', 'XSimGCL', 'XSimGCLS2', 'XSimGCLS3', 'XSimGCLS4', 'XSimGCLS5', 'XSimGCLS6', 'XSimGCLS7', 'XSimGCLS8', 'NCL', 'NCLS2', 'MixGCF'],
+        'Self-Supervised Graph-Based Models': ['SGL', 'SGL_neg', 'SGL_dyn', 'SGLS2','SGLS3', 'SGLS4' ,'SimGCL', 'SimGCL_neg', 'SimGCL_dyn', 'SimGCLS2','SimGCLS3','SimGCLS4', 'SEPT', 'MHCN', 'BUIR', 'SelfCF', 'SSL4Rec', 'XSimGCL', 'XSimGCL_neg', 'XSimGCL_dyn', 'XSimGCLS2', 'XSimGCLS3', 'XSimGCLS4', 'XSimGCLS5', 'XSimGCLS6', 'XSimGCLS7', 'XSimGCLS8', 'NCL', 'NCLS2', 'MixGCF'],
         'Sequential Baseline Models': ['SASRec'],
         'Self-Supervised Sequential Models': ['CL4SRec', 'BERT4Rec']
     }

@@ -14,5 +14,10 @@ def run_models(models):
 
 
 if __name__ == '__main__':
-    default_models = ['LightGCN_neg']
+    default_models = [
+        'LightGCN_neg', 'LightGCN_dyn',
+        'SGL_neg', 'SGL_dyn',
+        'SimGCL_neg', 'SimGCL_dyn',
+        'XSimGCL_neg', 'XSimGCL_dyn',
+    ]
     run_models(default_models)
